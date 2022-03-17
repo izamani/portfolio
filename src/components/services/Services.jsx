@@ -1,6 +1,6 @@
 import React from 'react'
 import './services.css'
-
+import{BiCheck} from 'react-icons/bi'
 function Services() {
   return (
     <section id='services'>
@@ -11,7 +11,102 @@ function Services() {
           <div className="service__head">
             <h3>UI/UX Desgin</h3>
           </div>
+          <ul>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+          </ul>
         </article>
+        {/** End of UI/UX */}
+        <article className="service">
+          <div className="service__head">
+            <h3>Web Development</h3>
+          </div>
+          <ul>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+          </ul>
+        </article>
+        {/** End of Web Development*/}
+        <article className="service">
+          <div className="service__head">
+            <h3>Content Creation</h3>
+          </div>
+          <ul>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+            <li>
+              <BiCheck className='service__list-icon'/>
+              <p>Lorem voluptates? In sint illo accusantium.</p>
+            </li>
+          </ul>
+        </article>
+        {/** End of Content Creation */}
       </div>
     </section>
   )
