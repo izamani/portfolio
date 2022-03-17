@@ -11,7 +11,7 @@ function Services() {
           <div className="service__head">
             <h3>UI/UX Desgin</h3>
           </div>
-          <ul>
+          <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem voluptates? In sint illo accusantium.</p>
@@ -43,7 +43,7 @@ function Services() {
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
-          <ul>
+          <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem voluptates? In sint illo accusantium.</p>
@@ -79,7 +79,7 @@ function Services() {
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>
-          <ul>
+          <ul className='service__list'>
             <li>
               <BiCheck className='service__list-icon'/>
               <p>Lorem voluptates? In sint illo accusantium.</p>
