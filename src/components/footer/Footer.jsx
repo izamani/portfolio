@@ -1,12 +1,13 @@
 import React from 'react'
 import './footer.css'
-import {BsFacebook} from 'react-icons/bs'
-import {FaInstagramSquare} from 'react-icons/fa'
-import {BsTwitter } from 'react-icons/bs'
+import {FaFacebook} from 'react-icons/fa'
+import {FiInstagram} from 'react-icons/fi'
+import {IoLogoTwitter } from 'react-icons/io'
 
-function Footer() {
+const Footer = () => {
   return (
-    <section id='footer'>
+   
+    <footer>
       <a href="#" className="footer__logo">Zamani Freelancer</a>
 
       <ul className="permalinks">
@@ -19,11 +20,15 @@ function Footer() {
         <li><a href="#contact">Contact</a></li>
       </ul>
       <div className="footer__socials">
-        <a href="https://facebook.com"><BsFacebook /></a>
-        <a href="https://instagram.com"><FaInstagramSquare /></a>
-        <a href="https://twitter.com"><BsTwitter /></a>
+        <a href="https://facebook.com"><FaFacebook /></a>
+        <a href="https://instagram.com"><FiInstagram /></a>
+        <a href="https://twitter.com"><IoLogoTwitter /></a>
       </div>
-    </section>
+      <div className="footer__copyright">
+          <small>&copy; Zamani Freelancer. All rights reserved</small>
+        </div>
+    </footer>
+   
   )
 }
 
